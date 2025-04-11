@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign-up Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left-panel">
+            <div class="logo-container">
+                <img class="logo-image" src="odin-logo.png" alt="Odin Logo">
+                <div class="logo">ODIN</div>
+            </div>
+            <div class="spacer"></div>
+            <div class="source">
+                <div class="source-text">Photo by Halie West on Unsplash</div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="introduction">
+                <p><strong>This is not a real online service! You know you need something like this in your life to help
+                        you
+                        realize your deepest dreams.</strong></p>
+                <p><strong>Sign up <em>now</em> to get started.</strong></p>
+                <p><strong>You <em>know</em> you want to.</strong></p>
+            </div>
+            <div class="form-container">
+                <h2>Let's do this!</h2>
+                <form id="formform">
+                    <div class="form-pair"><label for="name">FIRST NAME</label>
+                        <input type="text" id="name" name="first_name">
+                    </div>
+                    <div class="form-pair"><label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname" name="last_name">
+                    </div>
+                    <div class="form-pair"><label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-pair"><label for="phonenumber">PHONE NUMBER</label>
+                        <input type="tel" id="phonenumber" name="phone_number">
+                    </div>
+                    <div class="form-pair"> <label for="password1">PASSWORD</label>
+                        <input type="password" id="password1" name="password1">
+                    </div>
+                    <div class="form-pair">
+                        <label for="password2">CONFIRM PASSWORD</label>
+                        <input type="password" id="password2" name="password2">
+                    </div>
+                </form>
+            </div>
+            <div class="ending">
+                <button type="submit" form="formform">Create account</button>
+                <p>Already have an account? Log in</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
